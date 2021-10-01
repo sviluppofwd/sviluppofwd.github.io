@@ -45,34 +45,24 @@
                 <br><br>
                   <a class="myLink" href="itms-services://?action=download-manifest&url=https://sviluppofwd.github.io/appMovimentoTrancia/manifest.plist">&nbsp;&nbsp;Installa App - Versione iOS&nbsp;&nbsp;</a>
                 <br><br>
-                  <a class="myLink" href="https://sviluppofwd.github.io/appMovimentoTrancia/appMovimentoTrancia.apk">&nbsp;&nbsp;Installa App - Versione Android&nbsp;&nbsp;</a>
+<!--                   <a class="myLink" href="https://sviluppofwd.github.io/appMovimentoTrancia/appMovimentoTrancia.apk">&nbsp;&nbsp;Installa App - Versione Android&nbsp;&nbsp;</a>
+ -->                  <input class ="myLink" type="button" value="Installa App - Versione Android" onClick="passwd()"/>
                 </div>
             </div>
           </div>
         </div>
         <br>
         <br>
-        <!-- <div class="row">
-          <div class="col-3 mx-auto">
-            <div class="text-center">
-              <form action="itms-services://?action=download-manifest&url=https://sviluppofwd.github.io/sviluppofwd/manifest.plist"> 
-                <input type="submit" value="Installa RFood"></input>
-              </form>
-            </div>
-          </div>
-        </div> -->
-
       </div>
-     
-
-   <!--    <h1>Distribuzione app RFood</h1>
-      <h2>Version 1.00 - Beta (Ad hoc)</h2>
-        
-          Data di pubblicazione: 05 Luglio 2021
-        
-        <br>
-        <br>
-          <a href="itms-services://?action=download-manifest&url=https://sviluppofwd.github.io/sviluppofwd/manifest.plist">Installa</a>
-         -->
+         <script>
+            function passwd(){
+              var password = prompt('Inserisci la password:');
+              if(password == "Ab050272"){
+                window.open("https://sviluppofwd.github.io/appMovimentoTrancia/appMovimentoTrancia.apk")    
+              }else{
+                alert("Password errata, riprova");
+              }
+            }
+         </script>
     </body>
 </html>
